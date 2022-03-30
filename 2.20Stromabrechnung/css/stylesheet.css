@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+#wrapper {
+  margin: auto;
+  width: fit-content;
+}
+
+header {
+  display: flex;
+  gap: 2em;
+}
+
+.middle-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+}
+
+.left-div, .right-div {
+  border: 1px solid green;
+  padding: 1em;
+}
+
+.left-div {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.2em;
+}
+
+fieldset {
+  margin-top: 0.5em;
+}
+
+input {
+  margin: 0.2em;
+}
+
+button {
+  padding: 0.5em 1em;
+  background-color: green;
+  color: white;
+}
+
+.btn {
+  margin: auto;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.output {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(197, 197, 197);
+  padding: 1em;
+  gap: 2em;
+}
+
+.itm {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}

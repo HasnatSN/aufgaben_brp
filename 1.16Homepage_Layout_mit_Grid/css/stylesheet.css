@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr 1fr;
+  grid-template-rows: 2fr 2.5fr 0.8fr;
+  gap: 10px;
+}
+
+.header, .nav, .aside, .article, .links, .footer {
+  border-radius: 0px 10px 10px 10px;
+  padding: 0.5em;
+}
+
+.header {
+  border: 1px solid gray;
+  background-color: lightgray;
+}
+
+.nav {
+  border: 1px solid rgb(243, 221, 19);
+  background-color: rgb(235, 232, 207);
+}
+
+.aside, .links {
+  border: 1px solid green;
+  background-color: rgb(222, 253, 176);
+}
+
+.article {
+  border: 1px solid orangered;
+  background-color: rgb(223, 152, 126);
+}
+
+.footer {
+  border: 1px solid darkgrey;
+  background-color: silver;
+  grid-area: 3 / 1 / span 1 / span 3;
+  display: flex;
+  align-items: center;
+}

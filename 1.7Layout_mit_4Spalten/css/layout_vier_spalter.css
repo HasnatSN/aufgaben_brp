@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.green {
+  border: 1px solid springgreen;
+  min-width: 200px;
+  flex: 0 0 0px;
+}
+
+.red {
+  border: 1px solid red;
+  flex: 2 1 0;
+}
+
+.gray {
+  border: 1px solid lightgray;
+  flex: 1 1 0;
+}
+
+.lightgray {
+  border: 1px solid lightgray;
+  flex: 2 1 0;
+}

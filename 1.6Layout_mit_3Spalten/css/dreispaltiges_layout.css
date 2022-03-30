@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 70px;
+  margin: 50px 50px;
+}
+
+.red {
+  background-color: red;
+  padding: 15px;
+  flex-grow: 1;
+}
+
+.yellow {
+  background-color: yellow;
+  padding: 30px 15px;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.green {
+  background-color: lightgreen;
+  padding: 45px 15px;
+  flex-grow: 1;
+}
+

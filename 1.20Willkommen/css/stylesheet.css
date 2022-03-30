@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: gainsboro;
+  border-top: 2em solid green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em 1em 2em;
+}
+
+.header-text {
+  text-align: right;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 8px ;
+}
+
+#baum-img {
+  width: 100vw;
+}
+
+footer {
+  background-color: green;
+  padding: 8px ;
+  color: white;
+  font-weight: 600;
+}

@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+#wrapper {
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1em;
+  width: fit-content;
+  border: 2px solid black;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+header img {
+  width: 150px;
+  margin-top: 1em;
+  margin-right: 3em;
+}
+
+.header-text {
+  flex: 1;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 2em;
+}
+
+.field-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  
+}
+
+.field-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+button {
+  width: 100%;
+  padding: 0.3em;
+}
+
+hr {
+  grid-area: 3 / 1 / span 1 / span 2;
+  width: 100%;
+}
+
+.output {
+  margin: auto;
+  text-align: center;
+  padding: 1em;
+}

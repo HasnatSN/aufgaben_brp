@@ -1,0 +1,43 @@
+.container {
+  width: 203px;
+  height: 305px;
+  display: grid;
+  grid-template: repeat(6, 50px) / repeat(4, 50px);
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  gap: 1px;
+}
+
+.display {
+  grid-area: 1 / 1 / span 1 / span 4;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  background-color: gray;
+}
+
+.zero {
+  grid-area: 6 / 1 / span 1 / span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: gray;
+}
+
+.rest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: gray;
+}
+
+.orange {
+  background-color: orange;
+  height: 50px;
+  border-right: 0px;
+}

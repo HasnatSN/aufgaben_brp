@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background-color: #208cfc;
+  color: white;
+  width: fit-content;
+  padding: 1em;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  text-align: center;
+  gap: 0.5em;
+}
+
+.header-text {
+  grid-area: 1 / 1 / span 1 / span 3;
+  text-align: center;
+}
+
+h2 {
+  margin: 0em;
+}
+
+input {
+  width: 80px;
+}
+
+.div-x {
+  font-weight: 700;
+}
+
+.div-btn {
+  grid-area: 4 / 1 / span 1 / span 3;
+}
+
+button {
+  width: 100%;
+  padding: 0.7em;
+  font-weight: 700;
+}
+
+.ergebnis {
+  text-align: center;
+  margin: auto;
+  font-weight: 700;
+}

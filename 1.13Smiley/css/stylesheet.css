@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 100px;
+  background-color: black;
+  padding: 0.7rem;
+  gap: 1rem;
+}
+
+.one, .two {
+  background-color: chartreuse;
+  display: flex;
+  justify-content: center;
+  color: green;
+}
+
+.three {
+  background-color: chartreuse;
+  grid-area: 2 / 1 / span 1 / span 2;
+  display: flex;
+  justify-content: center;
+  color: green;
+}

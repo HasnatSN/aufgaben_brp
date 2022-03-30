@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+#wrapper, .output {
+  background-color: #d8d4d4;
+  padding: 1em;
+  width: 700px;
+  height: auto;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+header div img {
+  width: 150px;
+}
+
+.header-text {
+  flex: 1;
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.row-1 {
+  display: grid;
+  grid-template-columns: 150px auto 1fr;
+}
+
+.row-2 {
+  display: grid;
+  grid-template-columns: 150px auto 1fr;
+}
+
+#miet-dauer {
+  width: 50px;
+}
+
+.row-3 {
+  display: grid;
+  grid-template-columns: 150px auto 1fr;
+}
+
+
+.row-4 {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+fieldset {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  border-color: rgb(158, 158, 158);
+}
+
+.row-btns {
+  margin: 2em auto 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+}
+
+button {
+  background-color: #84ec8c;
+  padding: 0.5em;
+  width: 200px;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.div-best {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}

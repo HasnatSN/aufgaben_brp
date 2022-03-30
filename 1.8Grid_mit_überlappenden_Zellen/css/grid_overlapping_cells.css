@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  grid-template-columns: 5fr 6fr 3fr;
+  grid-template-rows: 200px 200px;
+  gap: 20px;
+}
+
+.a {
+  background-color: khaki;
+  grid-area: 1 / 1 / 1 / -1;
+}
+
+.a, .b, .c, .d {
+  border: 1px solid red;
+}
+
+.d {
+  grid-area: 1 / 3 / span 2 / span 1;
+}

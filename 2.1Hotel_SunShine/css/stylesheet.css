@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+#wrapper {
+  background-color: rgb(37, 150, 190);
+  padding: 1em;
+  width: 700px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+img {
+  width: 3em;
+}
+
+.header-text {
+  flex: 1;
+  text-align: center;
+  color: white;
+
+}
+
+#eingabe {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  color: white;
+  padding: 1em;
+}
+
+/* .eingabe-text {
+  flex: 1;
+} */
+
+.input {
+  display: flex;
+  flex-direction: row;
+  gap: 1.3em;
+}
+
+.anzahl-div {
+  background-color: #ff7c54;
+  padding: 1em;
+  flex: 1 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.orange-line-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#anzahl-erwachsene, #anzahl-nights {
+  width: 50px;
+}
+
+.verpflegung-div {
+  background-color: #a0cc34;
+  padding: 1em;
+  flex: 1 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.fs-1 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.fs-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  gap: 0.6em;
+}
+
+.btns-div {
+  margin: 1em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  padding: 0.5em;
+  width: 150px;
+}
+
+#preisberechnung {
+  background-color: rgb(37, 150, 190);
+  color: white;
+  width: 700px;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  margin: auto;
+}
+
+.title {
+  grid-area: 1 / 1 / span 1 / span 2;
+  text-align: center;
+}
+
+.output-info-div {
+  grid-area: 2 / 1 / span 1 / span 2;
+  display: flex;
+  flex-direction: row;
+}
+
+.gpreis {
+  text-align: center;
+  background-color: yellow;
+  color: black;
+  width: fit-content;
+  margin: auto;
+  grid-column: 1 / -1;
+  margin-top: 1em;
+  font-weight: 900;
+  font-size: 2em;
+}

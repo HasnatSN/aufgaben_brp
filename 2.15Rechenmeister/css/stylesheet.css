@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+#wrapper {
+  background-color: gray;
+  padding: 1em;
+  width: fit-content;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+input {
+  width: 60px;
+}
+
+button {
+  background-color: lightseagreen;
+  border: none;
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  padding: 0.7em;
+}
+
+.last-row {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+}
+
+.lr-1, .lr-2 {
+  border: 1px solid green;
+  width: fit-content;
+}

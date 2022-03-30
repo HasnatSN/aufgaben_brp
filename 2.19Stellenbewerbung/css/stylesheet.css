@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+#wrapper {
+  width: 800px;
+  background-color: #e0dcdc;
+  padding: 0.4em;
+  margin: auto;
+}
+
+form, .output {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  gap: 0.2em;
+}
+
+.green {
+  background-color: #90ee90;
+  padding: 0.5em;
+  text-align: right;
+}
+
+.yellow {
+  background-color: #ffff00;
+  padding: 0.5em;
+}
+
+.long-inp {
+  min-width: 400px;
+}

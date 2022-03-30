@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  background-color: lightgrey;
+  padding: 1em;
+  width: fit-content;
+  gap: 1em;
+  width: 600px;
+  margin: auto;
+}
+
+.input-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.i1 {
+  width: 40%;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  background-color: yellow;
+  width: 45%;
+  padding: 0.5em;
+  font-weight: 900;
+}
+
+.output {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto;
+  gap: 1em;
+}
+
+.output h2 {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+}
+
+.col-2 {
+  background-color: white;
+}

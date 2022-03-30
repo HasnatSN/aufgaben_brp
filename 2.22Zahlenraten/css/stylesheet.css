@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+#wrapper {
+  width: fit-content;
+  background-color: #7fffd4;
+  padding: 1em;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+
+.inp-div {
+  display: flex;
+  gap: 2em;
+}
+
+input {
+  width: 60px;
+}

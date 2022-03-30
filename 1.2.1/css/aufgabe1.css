@@ -1,0 +1,43 @@
+* {
+  background-color: cyan;
+}
+
+/* #header {
+  background-color: rgb(214, 214, 214);
+  height: 10px;
+} */
+
+#cyan-div {
+  display: flex;
+  flex-direction: column;
+  background-color: cyan;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+  border: 1px solid cyan;
+}
+
+#footer {
+  height: 10px;
+  background-color: blue;
+  color: white;
+}
+
+.yellow-div {
+  background-color: yellow;
+  width: 380px;
+  height: 158px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  gap: 10px;
+  padding: 10px;
+}
+
+.white-div {
+  background-color: white;
+  border: 1px solid red;
+  color: black;
+  height: 100%;
+}

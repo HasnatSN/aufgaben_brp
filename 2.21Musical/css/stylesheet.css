@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+#wrapper {
+  background-color: gainsboro;
+  height: 100vh;
+  padding: 0.5em;
+  color: rgb(10, 157, 255);
+}
+
+header {
+  display: flex;
+  width: 100vw;
+}
+
+header img {
+  width: 200px;
+}
+
+.header-text {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.btns-div {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.btns {
+  background-color: rgb(10, 157, 255);
+  color: white;
+  padding: 1em;
+  border-radius: 4px;
+}
+
+.input-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-area-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.input-cls {
+  width: 150px;
+  
+}
+
+.input-div {
+  text-align: right;
+}
+
+.last-row {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
+  gap: 0.5em;
+}
+
+.discount-div {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
+}
+
+.infos {
+  display: flex;
+}
+.info {
+  flex: 1;
+}

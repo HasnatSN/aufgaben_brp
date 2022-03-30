@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header><h1>Grundstückverkauf</h1></header>
+      <form action="grundstueck.php" method="post" id="f1">
+        <div class="input-div">
+          <div><label for="gsparzelle">Grundstückparzelle</label></div>
+          <div><input type="text" name="cell_f" id="gsparzelle" /></div>
+          <div><label for="laenge">Länge</label></div>
+          <div><input class="i1" type="number" name="length_f" id="laenge" /></div>
+          <div><label for="breite">Breite</label></div>
+          <div><input class="i1" type="number" name="width_f" id="breite" /></div>
+        </div>
+        <div class="btn-div">
+          <button type="reset">Zurücksetzen</button>
+          <button type="submit" name="preisberechnung">Preisberechnung</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
