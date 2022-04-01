@@ -12,8 +12,10 @@
 header {
   display: flex;
   flex-direction: row;
-  width: 100vw;
-  justify-content: space-between;
+}
+
+h2 {
+  flex: 1;
 }
 
 img {
@@ -24,7 +26,6 @@ img {
   flex: 1;
   text-align: center;
   color: white;
-
 }
 
 #eingabe {
