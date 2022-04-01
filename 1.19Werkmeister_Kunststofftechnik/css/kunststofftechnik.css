@@ -36,8 +36,17 @@ footer a, footer {
   color: white;
 }
 
-span {
+span{
   color: green;
+}
+
+table, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  margin-bottom: 2em;
 }
 
 .table {
